@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Quant Developer Assignment — Live Data Dashboard
 
 A Streamlit dashboard for exploring cryptocurrency market data (e.g., **BTCUSDT**, **ETHUSDT**).  
@@ -203,3 +204,7 @@ Author
 
 Harshit Shah
 harshitshah045@gmail.com
+=======
+# quant-developer-dashboard
+Live data analytics dashboard for Quant Developer assignment using Python, Streamlit, Pandas, Plotly.
+>>>>>>> 35f5668fb41bb48273f15a64c53c977dbb371c03
