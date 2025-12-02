@@ -1,0 +1,10 @@
+streamlit
+pandas
+numpy
+plotly
+statsmodels
+scipy
+websocket-client
+requests
+watchdog
+python-dotenv

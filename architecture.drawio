@@ -1,0 +1,123 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/28.2.8 Chrome/140.0.7339.240 Electron/38.4.0 Safari/537.36" version="28.2.8">
+  <diagram name="Page-1" id="3fYnRycw5OVYJTbWlMBO">
+    <mxGraphModel dx="1246" dy="5718" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="0" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="light-dark(#ffffff, #f5f5f5)" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="1L2QPsbmLUPZI6xfTik9-1" value="&lt;div&gt;&lt;font style=&quot;font-size: 62px;&quot;&gt;Raw Data (NDJSON / CSV)&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#008a00;strokeColor=#005700;fontColor=#ffffff;" parent="1" vertex="1">
+          <mxGeometry x="114.88" y="-4720" width="940" height="340" as="geometry" />
+        </mxCell>
+        <mxCell id="1L2QPsbmLUPZI6xfTik9-2" value="&lt;div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 62px;&quot;&gt;Loader (load_latest_ndjson, CSV uploader)&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#008a00;strokeColor=#005700;fontColor=#ffffff;" parent="1" vertex="1">
+          <mxGeometry x="89.88" y="-4000" width="990" height="340" as="geometry" />
+        </mxCell>
+        <mxCell id="1L2QPsbmLUPZI6xfTik9-3" value="&lt;div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 25px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 25px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 62px;&quot;&gt;Resampler (resample_ticks)&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#008a00;strokeColor=#005700;fontColor=#ffffff;" parent="1" vertex="1">
+          <mxGeometry x="79.88" y="-3390" width="1010" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="1L2QPsbmLUPZI6xfTik9-4" value="&lt;div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 62px;&quot;&gt;Wide Prices (prices_wide)&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#008a00;strokeColor=#005700;fontColor=#ffffff;" parent="1" vertex="1">
+          <mxGeometry x="89.88" y="-2790" width="990" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="1L2QPsbmLUPZI6xfTik9-5" value="&lt;div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 62px;&quot;&gt;Analytics (spread_and_zscore, rolling_corr, adf_test)&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#008a00;strokeColor=#005700;fontColor=#ffffff;" parent="1" vertex="1">
+          <mxGeometry x="79.88" y="-2140" width="1010" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="1L2QPsbmLUPZI6xfTik9-6" value="&lt;div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 62px;&quot;&gt;Streamlit UI (Charts, Alerts, ADF, Downloads)&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#008a00;strokeColor=#005700;fontColor=#ffffff;" parent="1" vertex="1">
+          <mxGeometry x="64.88" y="-1600" width="1040" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="1L2QPsbmLUPZI6xfTik9-7" value="&lt;div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 62px;&quot;&gt;User (Views Dashboard)&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#008a00;strokeColor=#005700;fontColor=#ffffff;" parent="1" vertex="1">
+          <mxGeometry x="74.88" y="-960" width="1020" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="1L2QPsbmLUPZI6xfTik9-20" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="427.5" y="-60" as="sourcePoint" />
+            <mxPoint x="527.5" y="-60" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1L2QPsbmLUPZI6xfTik9-26" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=light-dark(default, #121111);strokeWidth=62;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="562.5" y="-4070" as="sourcePoint" />
+            <mxPoint x="562.5" y="-4020" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1L2QPsbmLUPZI6xfTik9-35" value="&lt;font style=&quot;font-size: 62px;&quot;&gt;Input NDJSON&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="1L2QPsbmLUPZI6xfTik9-26" vertex="1" connectable="0">
+          <mxGeometry x="0.0259" y="5" relative="1" as="geometry">
+            <mxPoint x="8" y="-186" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1L2QPsbmLUPZI6xfTik9-28" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=light-dark(default, #121111);strokeWidth=62;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="572.5" y="-3400" as="sourcePoint" />
+            <mxPoint x="554.29" y="-3330" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="554.29" y="-3350" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1L2QPsbmLUPZI6xfTik9-36" value="&lt;font style=&quot;font-size: 62px;&quot;&gt;Loaded Tick Data&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="1L2QPsbmLUPZI6xfTik9-28" vertex="1" connectable="0">
+          <mxGeometry x="-0.0682" y="-1" relative="1" as="geometry">
+            <mxPoint x="-16" y="-172" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1L2QPsbmLUPZI6xfTik9-29" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=light-dark(default, #121111);strokeWidth=62;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="566.6" y="-2850" as="sourcePoint" />
+            <mxPoint x="543.39" y="-2810" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="543.39" y="-2830" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1L2QPsbmLUPZI6xfTik9-37" value="&lt;font style=&quot;font-size: 62px;&quot;&gt;Resampled OHLC Data&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="1L2QPsbmLUPZI6xfTik9-29" vertex="1" connectable="0">
+          <mxGeometry x="-0.0918" y="-1" relative="1" as="geometry">
+            <mxPoint x="-5" y="-174" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1L2QPsbmLUPZI6xfTik9-30" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=light-dark(default, #121111);strokeWidth=62;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="529.51" y="-2170" as="sourcePoint" />
+            <mxPoint x="529.2900000000001" y="-2130" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="529.2900000000001" y="-2150" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1L2QPsbmLUPZI6xfTik9-45" value="&lt;font style=&quot;font-size: 62px;&quot;&gt;Wide-Format Price Table&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="1L2QPsbmLUPZI6xfTik9-30" vertex="1" connectable="0">
+          <mxGeometry x="-0.0682" relative="1" as="geometry">
+            <mxPoint x="10" y="-169" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1L2QPsbmLUPZI6xfTik9-31" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=light-dark(default, #121111);strokeWidth=62;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="569.29" y="-1650" as="sourcePoint" />
+            <mxPoint x="569.29" y="-1600" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="569.29" y="-1620" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1L2QPsbmLUPZI6xfTik9-38" value="&lt;font style=&quot;font-size: 62px;&quot;&gt;Analytics Output&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="1L2QPsbmLUPZI6xfTik9-31" vertex="1" connectable="0">
+          <mxGeometry x="-0.0918" y="2" relative="1" as="geometry">
+            <mxPoint x="-12" y="-183" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1L2QPsbmLUPZI6xfTik9-32" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=light-dark(default, #121111);strokeWidth=62;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="530" y="-1010" as="sourcePoint" />
+            <mxPoint x="530" y="-960" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="530" y="-980" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1L2QPsbmLUPZI6xfTik9-39" value="&lt;font style=&quot;font-size: 62px;&quot;&gt;&lt;span style=&quot;text-wrap-mode: wrap;&quot;&gt;Dashboard&amp;nbsp;&lt;/span&gt;&lt;font style=&quot;text-wrap-mode: wrap;&quot;&gt;Output&lt;/font&gt;&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="1L2QPsbmLUPZI6xfTik9-32" vertex="1" connectable="0">
+          <mxGeometry x="-0.0447" y="-1" relative="1" as="geometry">
+            <mxPoint x="1" y="-174" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1L2QPsbmLUPZI6xfTik9-47" value="&lt;font style=&quot;line-height: 150%; font-size: 62px; background-color: rgb(102, 178, 255);&quot;&gt;Quant Developer Assignment — Streamlit Architecture Diagram&lt;/font&gt;" style="text;html=1;whiteSpace=wrap;strokeColor=light-dark(#006EAF, #ba0d0d);fillColor=#006600;align=center;verticalAlign=middle;rounded=0;fontColor=light-dark(#FFFFFF,#CC0000);textShadow=1;" parent="1" vertex="1">
+          <mxGeometry x="24.88" y="-4962" width="1105.12" height="212" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
